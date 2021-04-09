@@ -1,0 +1,18 @@
+import java.util.*;
+public class project {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int a;
+		a=s.nextInt();
+		int year,days;
+		int b=60*24*365;
+		year=a/b;
+		System.out.print(year+" years ");
+		a=a-(year*b);
+		int c=60*24;
+		days=a/c;
+		System.out.print("and "+days+" days.");
+	}
+}
